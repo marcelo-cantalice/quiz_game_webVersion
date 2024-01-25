@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="./Style/indexStyle.css" />
+  </head>
+  <body>
+    <div class="mainDiv" id="mainDiv">
+      <h1 id="questionCounter">Question number 1</h1>
+
+      <div id="divQuestion" class="divQuestion">
+        <h2 id="questionText">Here will be the question</h2>
+        <button
+          href=""
+          type="button"
+          id="answer1"
+          class="choice"
+          onclick="checkAnswer(1)"
+        >
+          Answer1
+        </button>
+        <button
+          href=""
+          type="button"
+          id="answer2"
+          class="choice"
+          onclick="checkAnswer(2)"
+        >
+          Answer2
+        </button>
+        <button
+          href=""
+          type="button"
+          id="answer3"
+          class="choice"
+          onclick="checkAnswer(3)"
+        >
+          Answer3
+        </button>
+      </div>
+      <!--
+                <select name="select_answers" id="listAnswers">
+                <option value="answer1">Answer1</option>
+                <option value="answer2">Answer2</option>
+                <option value="answer3">Answer3</option>
+            </select>
+            <button id="btAnswer">Apply Answer</button>
+            -->
+    </div>
+    <script src="./JS/functions.js"></script>
+  </body>
+</html>

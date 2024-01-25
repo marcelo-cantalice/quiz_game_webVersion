@@ -1,0 +1,9 @@
+.mainDiv,
+.divQuestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+}
